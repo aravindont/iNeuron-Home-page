@@ -1,0 +1,418 @@
+/* 
+ 
+ font-family: 'Manrope', sans-serif; 
+ font-family: 'Poppins', sans-serif;
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 1rem;
+}
+
+body {
+  background-color: #fbfeff;
+  font-family: "Poppins", sans-serif;
+  color: rgb(60 73 88/1);
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.header-top input {
+  border: 1px solid #233c7b;
+  padding: 10px 20px;
+  width: 40rem;
+  color: #233c7b;
+  border-radius: 10px;
+  font-size: 1.12rem;
+}
+
+.login-buttons button:first-child {
+  background-color: white;
+  padding: 5px 10px;
+  color: #233c7b;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.login-buttons button:last-child {
+  background-color: #233c7b;
+  padding: 5px 20px;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-bottom {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-bottom a {
+  text-decoration: none;
+  color: #233c7b;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.arrow-head {
+  position: relative;
+  bottom: 5px;
+}
+
+.top-crousel-section img {
+  width: 100%;
+}
+
+.about-us {
+  padding: 3rem;
+}
+.main-heading {
+  font-size: 3rem;
+  color: #233c7b;
+  text-align: center;
+}
+
+.small-line {
+  height: 4px;
+  width: 8rem;
+  background: #ea8e30;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.about-us-bottom-divs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.about-us-bottom-divs div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-us-icons {
+  width: 10rem;
+}
+
+.about-us-numbers {
+  font-size: 3rem;
+  color: #233c7b;
+  font-weight: bold;
+}
+
+.about-us-divs-text {
+  font-size: 2rem;
+  color: #454545;
+  font-weight: bold;
+}
+
+.container {
+  padding: 3rem 3rem;
+}
+
+.our-achievers-section {
+  background: #eef0f5;
+}
+
+.our-achievers-marquee {
+  margin-top: 2rem;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  gap: 5rem;
+}
+
+.scrolling-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+  gap: 2.5rem;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.scrolling-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 2rem 1rem;
+  width: 24rem;
+  text-align: center;
+}
+
+.scrolling-item-image {
+  border-radius: 50%;
+  width: 112px;
+  height: 112px;
+}
+
+.scrolling-item-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.linkedin-icon svg {
+  font-size: 2rem;
+  color: #3b82f6;
+}
+
+.view-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-more p {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.about-heading-text {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.course-image {
+  width: 100%;
+  height: 190x;
+}
+
+.course-teacher-name {
+  margin: 1rem 0;
+}
+
+.course-item {
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+  width: 469px;
+  height: 441px;
+}
+
+.item-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.item-bottom .course-price {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.course-price span {
+  font-family: "Manrope", sans-serif;
+}
+
+.item-bottom button {
+  padding: 0.3rem 0.6rem;
+  background-color: #a2cafa;
+  font-weight: 300;
+  border: 1px solid rgb(113 153 255);
+  cursor: pointer;
+  color: black;
+}
+
+.course-name {
+  color: #233c7b;
+}
+
+.hackathons-img-div {
+  padding: 3rem 0;
+  width: 100%;
+}
+.hackathons-img-div img {
+  width: 100%;
+}
+
+.our-products-divs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.our-products-divs div {
+  width: 320px;
+  height: 320px;
+  text-align: center;
+}
+
+.our-products-divs div img {
+  width: 320px;
+  height: 160px;
+  text-align: center;
+}
+
+.our-products-title {
+  font-size: 1.5rem;
+}
+
+.our-products-text {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.our-partnered-institutions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.our-partnered-institutions img {
+  width: 10rem;
+}
+
+.footer {
+  padding: 3rem;
+  background-color: #233c7b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-social-icons {
+  margin: 0.4rem 0;
+}
+.footer-social-icons svg {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.yellow-line {
+  margin: 1rem 0;
+  width: 12rem;
+}
+
+.address {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.address svg {
+  font-size: 1.2rem;
+}
+
+.last-footer-sections {
+  flex: 1;
+}
+
+.complay-links {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.complay-links div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.footer-middle,
+.footer-left,
+.footer-right {
+  flex: 1;
+}
+
+.address-email p span {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.address-email {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.complay-links a {
+  cursor: pointer;
+}
+
+.iso-img {
+  margin-top: 3rem;
+  width: 108px;
+  height: 144px;
+}
+
+.mobile-header {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .desktop-header {
+    display: none;
+  }
+  .mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .header-icon-img {
+    width: 1.5rem;
+    cursor: pointer;
+  }
+
+  .logo {
+    width: 8rem;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .about-us-numbers {
+    font-size: 2rem;
+  }
+
+  .about-us-divs-text {
+    font-size: 1rem;
+  }
+
+  .scrolling-items {
+    flex-wrap: wrap;
+  }
+}
